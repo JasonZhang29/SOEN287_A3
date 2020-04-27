@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}Degree Requirement{% endblock %}
+{% block head %}
+    {{ super() }}    
+{% endblock %}
+{% block navbar %}
+    {{ super() }}
+{% endblock %}
+{% block content %}
+    <div class="container">
+        <h3>Degree Requirement</h3>
+        <div class="table-responsive">
+            <table class="table">
+                <tr>
+                    <th colspan="2">Computer Science Core (33 credits)</th>
+                    <td>Credits</td>
+                </tr>
+                <tr>
+                    <td>COMP 228</td>
+                    <td>System Hardware</td>
+                    <td>3.00</td>
+                </tr>
+                <tr>
+                    <td>COMP 232</td>
+                    <td>Mathematics for Computer Science</td>
+                    <td>3.00</td>
+                </tr>
+                <tr>
+                    <td>COMP 233</td>
+                    <td>Probability and Statistic for Computer Science</td>
+                    <td>3.00</td>
+                </tr>
+                <tr>
+                    <td>COMP 248</td>
+                    <td>Object-Oriented Programming I</td>
+                    <td>3.00</td>
+                </tr>
+                <tr>
+                    <td>COMP 249</td>
+                    <td>Object-Oriented Programming II</td>
+                    <td>3.00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+{% endblock %}
+{% block user %}
+    {{ super() }}
+{% endblock %}
+{% block footer %}
+    {{ super() }}
+{% endblock %}

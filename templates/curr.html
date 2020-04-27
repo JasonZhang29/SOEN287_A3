@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Curriculum{% endblock %}
+{% block head %}
+    {{ super() }}    
+{% endblock %}
+{% block navbar %}
+    {{ super() }}
+{% endblock %}
+{% block content %}
+    <div class="container">
+        <h3>Curriculum</h3>
+        <p class="important">
+            The General Program and each option constitute a 90‑credit program that consists of courses in the following groups: Computer Science Core, Complementary Core, Option‑Specific Courses, Computer Science Electives, Mathematics Electives, and General Electives.
+        </p>
+        <ul class="list-group">
+            {% for line in lines %}
+            <li class="list-group-item">{{ line }}</li>
+            {% endfor %}
+          </ul>
+    </div>
+{% endblock %}
+{% block user %}
+    {{ super() }}
+{% endblock %}
+{% block footer %}
+    {{ super() }}
+{% endblock %}

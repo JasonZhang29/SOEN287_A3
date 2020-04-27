@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}General Information{% endblock %}
+{% block head %}
+    {{ super() }}    
+{% endblock %}
+{% block navbar %}
+    {{ super() }}
+{% endblock %}
+{% block content %}
+    <div class="container">
+        <h3>Course Prerequisite</h3>
+        <dl>
+            <dt>COMP 232</dt>
+            <dd>MATH 203 or Cegep Mathematics 103 or NYA; MATH 204 or Cegep Mathematics 105 or NYC.</dd>
+            <dt>COMP 233</dt>
+            <dd>MATH 205 or Cegep Mathematics 203 or NYB.</dd>
+            <dt>COMP 248</dt>
+            <dd>MATH 204 or Cegep Mathematics 105 or NYC previously or concurrently</dd>
+            <dt>COMP 249</dt>
+            <dd>COMP 248</dd>
+          </dl>
+    </div>
+{% endblock %}
+{% block user %}
+    {{ super() }}
+{% endblock %}
+{% block footer %}
+    {{ super() }}
+{% endblock %}

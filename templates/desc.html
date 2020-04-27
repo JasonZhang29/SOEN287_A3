@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}General Information{% endblock %}
+{% block head %}
+    {{ super() }}    
+{% endblock %}
+{% block navbar %}
+    {{ super() }}
+{% endblock %}
+{% block content %}
+    <div class="container">
+        <h3>Course Description</h3>
+        <p><b>COMP 232 Mathematics for Computer Science</b> (3 credits)</p>
+        <blockquote>
+            Sets. Propositional logic and predicate calculus. Functions and relations. Elements of number theory. Mathematical reasoning. Proof techniques: direct proof, indirect proof, proof by contradiction, proof by induction. Lectures: three hours per week. Tutorial: two hours per week.
+        </blockquote>
+        <p><b>COMP 233 Probability and Statistics for Computer Science</b> (3 credits)</p>
+        <blockquote>
+            Combinatorics. Axioms of probability. Conditional probability. Discrete and continuous probability distributions. Expectation and moments. Hypothesis testing. Parameter estimation. Correlation and linear regression. Applications to computer science. Lectures: three hours per week. Tutorial: two hours per week.
+        </blockquote>
+        <p><b>COMP 248 Object‑Oriented Programming I</b> (3 credits)</p>
+        <blockquote>
+            Introduction to programming. Basic data types, variables, expressions, assignments, control flow. Classes, objects, methods. Information hiding, public vs. private visibility, data abstraction and encapsulation. References. Arrays. Lectures: three hours per week. Tutorial: two hours per week. Laboratory: one hour per week.
+        </blockquote>
+    </div>
+{% endblock %}
+{% block user %}
+    {{ super() }}
+{% endblock %}
+{% block footer %}
+    {{ super() }}
+{% endblock %}
